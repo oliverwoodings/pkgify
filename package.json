@@ -1,0 +1,36 @@
+{
+  "name": "pkgify",
+  "version": "1.0.0",
+  "description": "Rewrite package/module require calls to local files in browserify\"",
+  "main": "lib/pkgify.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "browserify-transform",
+    "alias",
+    "package"
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oliverwoodings/pkgify.git"
+  },
+  "author": "Oliver Woodings (https://github.com/oliverwoodings)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oliverwoodings/pkgify/issues"
+  },
+  "homepage": "https://github.com/oliverwoodings/pkgify",
+  "dependencies": {
+    "browserify-transform-tools": "^1.2.2",
+    "lodash-node": "^2.4.1"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}
