@@ -4,13 +4,14 @@ Pkgify is a [browserify](https://github.com/substack/node-browserify) transform 
 
 * Clean up your require calls!
 * Supports individual files and entire directories
+* Supports nested packages (priorities deepest match)
 * Simple configuration
 * File-type indifferent
+* Efficient
 
+#### But we already have aliasify and remapify?
 
-## Installation
-
-`npm install --save-dev pkgify`
+Aliasify is designed for mapping individual files to new names. Remapify actually uses aliasify internally for it's mapping process which means it has to generate a list of all possible files that *might* be mapped from the source directory, and then compare them when processing files. This gives remapify less control since it isn't doing the transform itself.
 
 
 ## Purpose
@@ -40,6 +41,12 @@ With pkgify, however, you can save yourself time and clean up your code so it lo
 var log = require("log");
 var Cars = require("models/cars");
 ```
+
+
+## Installation
+
+`npm install --save-dev pkgify`
+
 
 ## Usage
 
