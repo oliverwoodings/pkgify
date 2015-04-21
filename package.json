@@ -1,6 +1,6 @@
 {
   "name": "pkgify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Rewrite package/module require calls to local files in browserify\"",
   "main": "lib/pkgify.js",
   "directories": {
