@@ -26,7 +26,7 @@
   "homepage": "https://github.com/oliverwoodings/pkgify",
   "dependencies": {
     "browserify-transform-tools": "^1.2.2",
-    "lodash-node": "^2.4.1"
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "browserify": "^8.1.1",
